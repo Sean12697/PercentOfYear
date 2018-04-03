@@ -1,4 +1,4 @@
-window.addEventListener('load', function() { setInterval(showProgress, 1000); });
+window.addEventListener('load', function() { showProgress(); setInterval(showProgress, 1000); });
 
 function showProgress() {
     var result = oneLinePercentage() * 100;
